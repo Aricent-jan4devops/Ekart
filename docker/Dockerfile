@@ -1,5 +1,5 @@
 # Use a more recent base image with OpenJDK 17 (better security)
-FROM openjdk:8-jre-alpine
+FROM openjdk:17-jre-alpine
 
 # Expose the application port
 EXPOSE 8070
